@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0633B31B978CC400DF61E4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C0633B21B978CC400DF61E4 /* Settings.bundle */; };
 		4CAC668A1B978919007EC7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC66891B978919007EC7A9 /* AppDelegate.swift */; };
 		4CAC668C1B978919007EC7A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC668B1B978919007EC7A9 /* ViewController.swift */; };
 		4CAC668F1B978919007EC7A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAC668D1B978919007EC7A9 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0633B21B978CC400DF61E4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		4CAC66841B978919007EC7A9 /* DT Sid-In App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DT Sid-In App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAC66881B978919007EC7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CAC66891B978919007EC7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0633AE1B978BC700DF61E4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4C0633B21B978CC400DF61E4 /* Settings.bundle */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4C0633AF1B978BD700DF61E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC66901B978919007EC7A9 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C0633B01B978BE900DF61E4 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC668D1B978919007EC7A9 /* Main.storyboard */,
+				4CAC66921B978919007EC7A9 /* LaunchScreen.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		4C0633B11B978BF000DF61E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC668B1B978919007EC7A9 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		4CAC667B1B978919007EC7A9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				4CAC66891B978919007EC7A9 /* AppDelegate.swift */,
-				4CAC668B1B978919007EC7A9 /* ViewController.swift */,
-				4CAC668D1B978919007EC7A9 /* Main.storyboard */,
-				4CAC66901B978919007EC7A9 /* Images.xcassets */,
-				4CAC66921B978919007EC7A9 /* LaunchScreen.xib */,
+				4C0633B01B978BE900DF61E4 /* GUI */,
+				4C0633B11B978BF000DF61E4 /* ViewControllers */,
+				4C0633AF1B978BD700DF61E4 /* Resources */,
+				4C0633AE1B978BC700DF61E4 /* Settings */,
 				4CAC66871B978919007EC7A9 /* Supporting Files */,
 			);
 			path = "DT Sid-In App";
@@ -192,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0633B31B978CC400DF61E4 /* Settings.bundle in Resources */,
 				4CAC668F1B978919007EC7A9 /* Main.storyboard in Resources */,
 				4CAC66941B978919007EC7A9 /* LaunchScreen.xib in Resources */,
 				4CAC66911B978919007EC7A9 /* Images.xcassets in Resources */,
@@ -411,6 +447,7 @@
 				4CAC66A51B97891A007EC7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CAC66A61B97891A007EC7A9 /* Build configuration list for PBXNativeTarget "DT Sid-In AppTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +456,7 @@
 				4CAC66A81B97891A007EC7A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
